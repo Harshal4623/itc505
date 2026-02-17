@@ -1,0 +1,108 @@
+/* Lab 4: Presentational CSS for a text-heavy page */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #222;
+  background: #f6f3ee;
+}
+
+.container {
+  max-width: 980px;
+  margin: 48px auto;
+  padding: 0 18px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #d8d2c7;
+  border-radius: 12px;
+  padding: 28px 28px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  margin-bottom: 22px;
+}
+
+.page-header h1 {
+  margin: 0 0 6px 0;
+  font-size: 44px;
+  line-height: 1.15;
+  letter-spacing: 0.2px;
+}
+
+.scene {
+  margin: 0;
+  font-size: 18px;
+  color: #444;
+}
+
+.stage {
+  margin: 16px 0;
+  padding: 12px 14px;
+  border-left: 4px solid #b7a58a;
+  background: #fbf8f3;
+  border-radius: 8px;
+}
+
+.dialogue {
+  margin: 18px 0 24px 0;
+}
+
+.dialogue dt {
+  margin-top: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: #3d2e1f;
+  text-transform: capitalize;
+}
+
+.dialogue dd {
+  margin: 6px 0 0 0;
+  padding: 10px 14px;
+  background: #ffffff;
+  border: 1px solid #e3ddd2;
+  border-radius: 10px;
+}
+
+.addendum h2 {
+  margin-top: 0;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.addendum h3 {
+  margin: 22px 0 6px 0;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #3d2e1f;
+}
+
+p {
+  margin: 12px 0;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.95em;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: #f2efe9;
+  border: 1px solid #e2dccf;
+}
+
+footer {
+  max-width: 980px;
+  margin: 10px auto 40px auto;
+  padding: 0 18px;
+  color: #555;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}

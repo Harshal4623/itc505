@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Much Ado About Nothing – Act I, Scene I</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main class="container">
+    <!-- ARTICLE 1: THE SCENE -->
+    <article class="card">
+      <header class="page-header">
+        <h1>Much Ado About Nothing</h1>
+        <p class="scene"><strong>Act I, Scene I.</strong> A hall in Leonato’s house.</p>
+      </header>
+
+      <p class="stage"><em>Enter LEONATO, ANTONIO, HERO, BEATRICE, and others.</em></p>
+
+      <dl class="dialogue">
+        <dt>Leonato</dt>
+        <dd>Was not Count John here at supper?</dd>
+
+        <dt>Antonio</dt>
+        <dd>I saw him not.</dd>
+
+        <dt>Beatrice</dt>
+        <dd>
+          How tartly that gentleman looks! I never can see him but I am
+          heart-burned an hour after.
+        </dd>
+
+        <dt>Hero</dt>
+        <dd>He is of a very melancholy disposition.</dd>
+
+        <dt>Beatrice</dt>
+        <dd>
+          He were an excellent man that were made just in the midway between
+          him and Benedick: the one is too like an image and says nothing, and
+          the other too like my lady’s eldest son, evermore tattling.
+        </dd>
+
+        <dt>Leonato</dt>
+        <dd>
+          Then half Signior Benedick’s tongue in Count John’s mouth, and half
+          Count John’s melancholy in Signior Benedick’s face—
+        </dd>
+
+        <dt>Beatrice</dt>
+        <dd>
+          With a good leg and a good foot, uncle, and money enough in his
+          purse, such a man would win any woman in the world.
+        </dd>
+      </dl>
+
+      <p class="stage"><em>Enter DON PEDRO, CLAUDIO, BENEDICK, and others, masked.</em></p>
+
+      <dl class="dialogue">
+        <dt>Don Pedro</dt>
+        <dd>Lady, will you walk about with your friend?</dd>
+
+        <dt>Hero</dt>
+        <dd>
+          So you walk softly and look sweetly and say nothing, I am yours for
+          the walk.
+        </dd>
+      </dl>
+
+      <p class="stage"><em>Music. Dance. Exeunt.</em></p>
+    </article>
+
+    <!-- ARTICLE 2: ADDENDUM -->
+    <article class="card addendum">
+      <h2>Addendum</h2>
+
+      <p>
+        For Lab 4, I focused on making this page comfortable to read on a laptop.
+        Since it’s a text-heavy scene, I tried to make the layout feel like a clean
+        printed page: centered content, clear headings, and plenty of breathing room.
+      </p>
+
+      <h3>Font choices</h3>
+      <p>
+        I used a classic serif font for the main text because it matches the “play script”
+        feeling and stays readable for long passages. For headings, I kept the same family
+        so the page feels consistent instead of mixing too many styles.
+      </p>
+
+      <h3>Heading sizes and main text size</h3>
+      <p>
+        The main text is set to a comfortable size for reading and the line height is increased
+        so paragraphs don’t feel cramped. The <code>h1</code> is noticeably larger to clearly show the
+        title, while <code>h2</code> and <code>h3</code> are smaller but still distinct so the addendum is easy to scan.
+      </p>
+
+      <h3>Color choices</h3>
+      <p>
+        I chose a soft background (not pure white) to reduce eye strain. The text is a dark gray
+        instead of pure black to feel gentler. I used one accent color for borders and speaker labels
+        to add structure without making the page look “loud.”
+      </p>
+
+      <h3>Margins and padding</h3>
+      <p>
+        The page uses a max-width so lines don’t stretch too long across the screen. I also added
+        padding inside the content “card” so the text doesn’t touch the edges. Extra spacing is added
+        around headings, stage directions, and dialogue blocks so the reader can quickly follow who is speaking.
+      </p>
+
+      <h3>HTML abuse</h3>
+      <p>
+        I avoided using HTML elements just for appearance. I kept the play title as an <code>h1</code> because it is
+        the highest-level heading on the page. I did not use <code>br</code> tags for spacing, and I relied on CSS for
+        spacing and layout instead.
+      </p>
+    </article>
+  </main>
+
+  <!-- REQUIRED FOOTER (keep exactly like this) -->
+  <footer>
+    <p>Last updated:
+      <span id="lastModified"></span>
+    </p>
+  </footer>
+
+  <script type="text/javascript">
+    var x = document.lastModified;
+    document.getElementById('lastModified').textContent = x;
+  </script>
+</body>
+</html>
