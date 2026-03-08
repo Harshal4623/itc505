@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlit Palace Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="glow glow1"></div>
+    <div class="glow glow2"></div>
+
+    <div class="container">
+        <header>
+            <h1>Moonlit Palace Adventure</h1>
+            <p class="subtitle">A dreamy choose-your-own-adventure under the moonlight</p>
+        </header>
+
+        <main class="game-card">
+            <div class="story-section">
+                <h2>Your Story</h2>
+                <div id="story"></div>
+                <div id="choices"></div>
+            </div>
+
+            <div class="image-section">
+                <h2>Scene</h2>
+                <img id="image" alt="Moonlit Palace scene">
+            </div>
+        </main>
+
+        <section class="planning">
+            <h2>Story Planning</h2>
+            <p>
+                I planned the game as a branching story with multiple paths leading to eight unique endings.
+                The player begins at the Moonlit Palace entrance and must choose between entering the palace
+                or exploring the moon garden. Each choice leads to another scene with new decisions, and those
+                decisions eventually lead to one of the final endings.
+            </p>
+
+            <div class="flowchart">
+                <pre>
+Start
+├── Grand Golden Doors
+│   ├── Silver Staircase
+│   │   ├── Crown Vision → Crowned by Moonlight
+│   │   └── Shadowy Throne → Cursed Throne
+│   └── Glowing Hallway
+│       ├── Golden Book → Hidden Library Scholar
+│       └── Back Door
+│           ├── Silver Key → Lost in the Mirror Hall
+│           └── Balcony → Escape at Dawn
+└── Moon Garden
+    ├── Silver Bench → Wish Granted by the Moon
+    └── Hidden Gate
+        ├── Wake the White Bird → Guardian of the Palace
+        └── Follow the Stone Path → Keeper of the Secret Garden
+                </pre>
+            </div>
+        </section>
+
+        <section class="addendum">
+            <h2>Project Addendum</h2>
+
+            <p>
+                For my mid-term project, I created an interactive “Choose Your Own Adventure” game titled
+                <strong>Moonlit Palace Adventure</strong>. The purpose of this project was to apply HTML, CSS,
+                and JavaScript in a creative way while building an interactive webpage. Before coding, I planned
+                the story structure carefully so that the player would have multiple branching choices leading to
+                different outcomes. I wanted the story to feel magical and different from a typical adventure game,
+                so I chose a moonlit palace theme with mystery, royalty, hidden rooms, and peaceful gardens.
+            </p>
+
+            <p>
+                I built the webpage using separate HTML, CSS, and JavaScript files. The HTML provides the main
+                structure of the page, including the story area, buttons, image section, addendum, and footer.
+                CSS was used to create an aesthetic design with dark blue and purple gradients, glowing accents,
+                rounded cards, and animated decorative effects such as stars and floating light glows. I also
+                added transitions and hover effects to make the page feel more polished and visually engaging.
+            </p>
+
+            <p>
+                JavaScript controls the interactive behavior of the game. I used an object-based structure to
+                store each scene’s text, image, and choices. Event listeners are attached to buttons so that when
+                the player clicks a choice, the story, choices, and image update dynamically without reloading the
+                page. One challenge was making sure that every path worked correctly and that all eight endings
+                were reachable. I solved this by organizing the scene names clearly and testing each branch step
+                by step. Through this project, I improved my understanding of DOM manipulation, event handling,
+                debugging, and how creativity can be combined with programming to build an engaging user interface.
+            </p>
+        </section>
+
+        <footer>
+            <p>Last updated:
+                <span id="lastModified"></span>
+            </p>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        var x = document.lastModified;
+        document.getElementById('lastModified').textContent = x;
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
